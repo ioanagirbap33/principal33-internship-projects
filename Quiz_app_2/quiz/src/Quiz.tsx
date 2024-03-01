@@ -24,7 +24,7 @@ const questions = [
   },
 ];
 
-export default function Quiz() {
+export const  Quiz = () => {
     
   const [score, setScore] = useState(0)
   const [showScore, setShowScore] = useState(false)
@@ -54,7 +54,7 @@ export default function Quiz() {
 
     return (
       <>
-          <h1>Quiz game</h1>
+          
           <div className='quiz-app'>
           {showScore ? (
             <div className='score-section'>
