@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 
-import { Navbar } from './Navbar';
+import { Navbar } from './components/Navbar';
 import { QuizOne } from './pages/QuizOne';
 import { QuizTwo } from './pages/QuizTwo';
 import { Route, Routes } from 'react-router-dom';

@@ -1,3 +1,10 @@
+import { questionsQuizTwo } from "../mocks/questionMocks"
+import { Quiz } from "../components/Quiz"
 export const QuizTwo = () => {
-    return <h1>2</h1>
+    return (
+        <div>
+             <Quiz questions={questionsQuizTwo}/>
+        </div>
+    )
+
 }
